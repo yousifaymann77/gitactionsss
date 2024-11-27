@@ -1,19 +1,36 @@
-on:
-  push:
-    branches:
-      -master
+name: Yousef walid omar section 5
 
+
+
+on:
+
+  push:
+
+    branches:
+
+      - master  
+
+  
 
 
 
 jobs:
-  build:      
-    runs-on : ubuntu-latest
+
+  build:
+
+    runs-on: ubuntu-latest
+
+
 
     steps:
-      - name : 'psint folder cont'
-        run: ls
 
-      - name : 'Test Print'
-        run : echo youssif
+      - name: Checkout repository
 
+        run: pwd
+
+
+
+      - name: Checkout printing
+
+        run: echo Yousef_walid
+       uses : actions/checkout@v3
