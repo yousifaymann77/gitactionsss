@@ -24,13 +24,13 @@ jobs:
 
     steps:
       
-      - name: test repository
+      - name : 'Before'
+        run : ls
 
-        run: pwd
+      - uses : action/checkout@v3
+      
 
+      - name: 'After'
+        run: ls
 
-
-      - name: test printing
-
-        run: echo Yousef_Ayman
            
