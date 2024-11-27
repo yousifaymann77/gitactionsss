@@ -1,4 +1,4 @@
-name: Yousef walid omar section 5
+name: Yousef Ayman Abdelaziz Shehab 
 
 
 
@@ -24,13 +24,13 @@ jobs:
 
     steps:
       
-      - name: Checkout repository
+      - name: test repository
 
         run: pwd
 
 
 
-      - name: Checkout printing
+      - name: test printing
 
-        run: echo Yousef_walid
+        run: echo Yousef_Ayman
            
