@@ -1,1 +1,19 @@
+on:
+  push:
+    branches:
+      -master
+
+
+
+
+jobs:
+  build:      
+    runs-on : ubuntu-latest
+
+    steps:
+      - name : 'Test Action'
+        run: pwd
+
+      - name : 'Test Print'
+        run : echo youssif  
 
