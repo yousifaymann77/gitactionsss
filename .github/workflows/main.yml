@@ -11,8 +11,8 @@ jobs:
     runs-on : ubuntu-latest
 
     steps:
-      - name : 'Test Action'
-        run: pwd
+      - name : 'psint folder cont'
+        run: ls
 
       - name : 'Test Print'
         run : echo youssiff 
